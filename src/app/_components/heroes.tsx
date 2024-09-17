@@ -3,9 +3,9 @@ import Image from "next/image";
 const Heroes = () => {
   return ( 
     <div 
-      className="h-screen w-full z-1"
+      className="h-screen w-full z-1 mb-8"
     >
-      <div className="absolute h-[135%] w-full bg-black/10 z-[2]"/>
+      <div className="absolute h-[135%] -translate-y-[25%] w-full bg-black/10 z-[2]"/>
       <img 
         src = '/heroes/wedd_2.jpg'
         className= "h-[135%] w-full object-cover -translate-y-[25%]"
