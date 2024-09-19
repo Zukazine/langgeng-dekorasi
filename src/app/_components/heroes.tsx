@@ -8,9 +8,13 @@ const Heroes = () => {
       <div className="absolute h-[135%] -translate-y-[25%] w-full bg-black/10 z-[2]"/>
       <img 
         src = '/heroes/wedd_2.jpg'
-        className= "h-[135%] w-full object-cover -translate-y-[25%]"
+        className= "absolute h-[135%] w-full object-cover -translate-y-[25%]"
         style={{ filter: 'grayscale(50%)' }} 
       />
+
+      <div className="">
+        
+      </div>
     </div>
   );
 }

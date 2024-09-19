@@ -11,7 +11,7 @@ const Navbar = () => {
         width={300}
         height={300}
       />
-      <div className="flex items-center justify-center gap-16 ">
+      <div className="flex items-center justify-center gap-14 ">
         <Link href={'/#about'} className="group flex flex-col items-start justify-start relative">
           <p className="nav-button">
             HOME
