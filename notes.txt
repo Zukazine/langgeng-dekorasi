@@ -1,0 +1,6 @@
+Mouse hooks : 
+bun i @react-hook/mouse-position
+
+Scroll Hooks : 
+useScroll : framer-motion
+bun i @uidotdev/usehooks : useWindowScroll
